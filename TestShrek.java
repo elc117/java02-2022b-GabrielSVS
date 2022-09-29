@@ -1,17 +1,26 @@
 import java.util.*;
 
-public class Main
-{
+public class TestShrek {
+  
 	public static void main(String[] args) {
-		System.out.println("Jureg");
+
+	Shrek teste1 = new Shrek();
+	Shrek teste2 = new Shrek();
+
+	System.out.println(teste1.getCebola());
+	teste1.setCamada();
+	System.out.println(teste1.soma());
+    
+	System.out.println(teste2.getCamada());
+	teste2.setCebola();
+	System.out.println(teste2.soma());
+	
 	}
-	Shrek c;
-	int a;
-	float b;
-	c = new Shrek();
+ 
 }
 
-/* A classe deve conter atributos de pelo menos 2 tipos diferentes (algumas possibilidades: String, int, double, boolean, etc.).
-   A classe deve conter um construtor (pode haver mais de um, com diferentes argumentos).
-   A classe deve conter métodos com prefixo get e set, respectivamente para obter e alterar cada atributo.
-   A classe deve conter um método que implemente alguma operação com um ou mais atributos (por exemplo, um teste de condição, um cálculo, uma operação com strings, etc.). */
+/* 
+Contenha um método main, seguindo as convenções do Java (ver exemplos desta aula e da anterior).
+Dentro do main, instancie pelo menos 2 objetos da classe que você criou.
+Para cada objeto criado, chame pelo menos 3 métodos implementados.
+*/
